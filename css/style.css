@@ -1,0 +1,128 @@
+.borsh .title {
+  font-family: "Lato";
+  color: red;
+}
+
+div h2 {
+  color: blue;
+}
+
+.navigation.title {
+  color: rgb(42, 121, 67);
+}
+
+.navigation.title .yellow {
+  color: rgb(42, 121, 67);
+}
+
+.yellow {
+  color: rgb(205, 130, 50);
+}
+
+#vagluvo {
+  color: red;
+}
+
+div a {
+  color: blue;
+}
+
+/* -------- ПРІОРИТЕТ СЕЛЕКТОРІВ ------------ */
+
+/*
+Основні правила формування пріоритетів: 
+1) У випадку рівнозначних селекторів більший пріоритет буде у останього по коду.
+2) Більший пріоритет завжди буде у селектора, який звужує (уточює, конкретизує) пошук (запит).
+3) Пріоритет у рядкових (inline) стилів (атрибут style="") вищий ніж у стилів з окремого файлу (наприклад style.css)
+4) Флаг !important перезаписує пріоритет (не рекомендується)
+*/
+
+#ipsum {
+  color: coral;
+}
+
+.text p {
+  color: green;
+}
+
+/* p {
+  color: black;
+} */
+
+/* -------- Шрифти ------------ */
+
+/*
+body {
+  font-family: "Roboto";
+}
+*/
+
+div h1 {
+  font-family: "Larsseit";
+  font-weight: 700;
+  color: red;
+}
+
+div h2 {
+  font-family: "Lato";
+  font-weight: 700;
+  color: blue;
+}
+
+/* 
+.fontLarsseit {
+  font-family: "Larsseit";
+}
+
+.fontLato {
+  font-family: "Lato";
+}
+ */
+
+.title.larsseit {
+  font-family: "Larsseit";
+}
+
+.painting {
+  font-family: "Roboto";
+  font-weight: 700;
+  color: darkslateblue;
+}
+
+.text .doclad {
+  color: red;
+  font-family: "Larsseit";
+  font-weight: 700;
+}
+
+#vagluvo p {
+  color: rgb(69, 52, 102);
+  font-family: "Lato";
+  font-weight: 700;
+}
+
+.kinds p {
+  color: rgb(15, 189, 233);
+  font-family: "Lato";
+  font-weight: 900;
+}
+
+.kinds ol {
+  color: red;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+/* 
+.kinds ol li {
+  color: violet;
+  font-family: "Lato";
+  font-weight: 400;
+} 
+*/
+
+#vagluvo > p {
+  color: red;
+  font-family: "Larsseit";
+  font-weight: 400;
+}
